@@ -1,0 +1,24 @@
+{
+  // Sets the base image for your Codespace environment.
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  
+  // Install Dart and Flutter as features (the main tools we need).
+  "features": {
+    "ghcr.io/devcontainers/features/dart:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/flutter:1": {
+      "version": "latest"
+    }
+  },
+  
+  // Customize VS Code with useful extensions.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter"
+      ]
+    }
+  }
+}
